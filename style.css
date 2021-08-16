@@ -1,0 +1,27 @@
+:root{
+    --primary-dark:#6B7280;
+    --primary-color:#A5B4FC;
+    --txt-colr:#A7F3D0;
+}
+
+body{
+    background-color: var(--primary-dark);
+    color:var(--txt-colr);
+}
+.container{
+    text-align: center;
+    margin:auto;
+}
+input{
+    width:30%;
+    height:1.3rem;
+    display: block;
+    margin:1rem auto
+}
+button{
+    background-color: var(--primary-color);
+    border: 0.3rem soldi var(--primary-color);
+    border-radius: 0.2rem;
+    width:30%;
+    height:1.3rem;
+}
