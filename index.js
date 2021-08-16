@@ -146,7 +146,7 @@ function clickHandler() {
     var isPalindrome = checkPalindromeAllFormats(date);
     
     if (isPalindrome) {
-        message.innerText = "Yay, Your Date of birth is a palindrome😀";
+        message.innerText = "Yay, Your Date of birth is a palindrome.🥳 ";
     } else {
         var nextDate = findNextPalindrome(date);
         var nextDateFinal = nextDate[1].day + '/' + nextDate[1].month + '/' + nextDate[1].year;
